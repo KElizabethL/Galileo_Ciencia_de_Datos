@@ -1,0 +1,30 @@
+---
+title: "Investigacion de GIT"
+author: "Karin Lopez"
+date: "12/2/2022"
+output: html_document
+---
+
+# GIT
+
+Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. 
+
+## Directorio de trabajo 
+El directorio de Git es donde se almacenan los metadatos y la base de datos de objetos para tu proyecto. Es la parte más importante de Git, y es lo que se copia cuando clonas un repositorio desde otra computadora. El directorio de trabajo es una copia de una versión del proyecto.
+
+1.Working directory
+2.Staging area
+3.Repository
+
+
+_____________________________________________________________________________________________________
+
+### Principales comandos 
+|Codigo                | Descripción                                              |
+|----------------------| -------------------------------------------------------- |
+|git init              |Crea un repositorio Git vacío o reinicializa uno existente|
+|gt status             |muestra el estado del directorio de trabajo               |
+|git clone <url>       |Clonamos el repositorio de github o bitbucket             |
+|git add .             |Añadimos todos los archivos para el commi                 |
+|git commit -m "     " |Hacemos el primer commit                                  |
+|git push origin master|subimos al repositorio                                    |                                                     
